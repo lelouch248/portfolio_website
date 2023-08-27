@@ -57,4 +57,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For more details and to view the live website, visit [Portfolio Website](https://github.com/lelouch248/portfolio_website).
 
-![Preview](path/to/your/preview/image.png)
+![Preview](./mainscreen.png)
