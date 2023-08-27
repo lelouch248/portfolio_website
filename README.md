@@ -1,6 +1,6 @@
 # Portfolio Website
 
-![Portfolio Website]()
+![Portfolio Website](./mainscreen.png)
 
 A personal portfolio website showcasing my projects and skills, built using React.js, Three.js, Framer Motion, and other tools.
 
