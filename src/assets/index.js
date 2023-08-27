@@ -31,13 +31,34 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import drdo from "./company/drdo.png";
+import rinex from "./company/rinex.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import hari from "./hari.jpg"
+import pallavi from "./pallavi.jpg"
 
+// porjects images
+import animelist from "./project/animelist.jpg"
+import todolist from "./project/todolist.png"
+import discordbot from "./project/discordbot.png"
+import chatapp from "./project/chatapp.jpg"
+import poodals from "./project/poodals.png"
+import handwriting from "./project/handwriting.png"
 export {
+  handwriting,
+  poodals,
+  chatapp,
+  discordbot,
+  todolist,
+  animelist,
+  rinex,
+  drdo,
+  pallavi,
+  hari,
   flutter,
   python,
   firebase,

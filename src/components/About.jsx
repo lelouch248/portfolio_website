@@ -9,7 +9,6 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 import { SectionWrapper } from "../hoc";
 
-
 const ServiceCard = ({ index, title, icon }) => {
   return (
     <Tilt className="xs:w-[250px] w-full">
@@ -46,7 +45,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] "
       >
-        add information about you.
+        Hey there, I'm an engineering student driven by innovation and hands-on
+        creation. I've crafted a journey through hackathons, internships, and
+        real-world projects, showcasing my passion for web and Android
+        development. Data science and machine learning are my playgrounds, where
+        I've turned raw data into insightful solutions. Proficient in multiple
+        programming languages and frameworks, I love translating ideas into
+        working code. Feel free to explore my GitHub and LinkedIn profiles for a
+        closer look at my creations. Let's connect and make tech magic happen!
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
@@ -57,4 +63,4 @@ const About = () => {
   );
 };
 
-export default  SectionWrapper(About,"about");
+export default SectionWrapper(About, "about");
